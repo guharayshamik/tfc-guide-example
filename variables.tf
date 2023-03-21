@@ -1,6 +1,6 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
-
+/*
 variable "region" {
   description = "AWS region"
   default     = "us-east-1"
@@ -11,7 +11,7 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-/*
+
 variable "instance_name" {
   description = "Demo EC2 instance name"
   default     = "Provisioned by Terraform"

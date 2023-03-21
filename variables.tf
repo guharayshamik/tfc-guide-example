@@ -3,16 +3,24 @@
 
 variable "region" {
   description = "AWS region"
-  default     = "us-west-1"
+  default     = "us-east-1"
 }
 
 variable "instance_type" {
-  description = "Type of EC2 instance to provision"
+  description = "Demo Type of EC2 instance to provision"
   default     = "t2.micro"
 }
 
 variable "instance_name" {
-  description = "EC2 instance name"
+  description = "Demo EC2 instance name"
   default     = "Provisioned by Terraform"
 }
 
+variable "ami" {
+  default = "ami-006dcf34c09e50022"
+}
+
+variable "instance_name" {
+  description = "EC2 instance name"
+  default     = "Provisioned by Terraform Cloud"
+}

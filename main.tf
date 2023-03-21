@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-provider "aws" {
+provider "registry.terraform.io/hashicorp/aws" {
   region = var.region
 }
 

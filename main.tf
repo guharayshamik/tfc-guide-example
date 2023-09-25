@@ -3,8 +3,8 @@
 
 provider "aws" {
     region = var.region
-    access_key = "AKIATMEDTEUJMVAJQB54"
-    secret_key = "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"
+    access_key = "asdadasa"
+    secret_key = "asdasdasda"
 }
 
 resource "aws_instance" "myec2" {
